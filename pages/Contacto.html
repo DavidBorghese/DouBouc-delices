@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../assets/Img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/Img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/Estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="../assets/Img/logo.png" alt="Logo marca"></a>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="../Index.html"> Home</a></li>
+                    <li><a href="Sobre-Nosotros.html"> Sobre Nosotros</a></li>
+                    <li><a href="Productos.html"> Nuestros Productos</a></li>
+                    <li><a href="Pedido.html">  Pedido</a></li>
+                    <li><a href="Contacto.html"> Consultanos</a></li>
+                </ul>
+            </nav>  
+        </header>
+
+<h1>Contactanos</h1>
+<section class="main_contact">
+    <div class="form_container">
+        <form  action="enviar.php" method="get" enctype="text/plain" autocomplete="on">   
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required >
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Ingrese su apellido" required >
+        </div>
+        <div>
+            <label>Sexo</label>
+            <input type="radio" name="Sexo" value="1">Masculino
+            <input type="radio" name="Sexo" value="2">Femenino
+        </div>
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail" placeholder="Ingrese su mail" required >
+        </div>
+        <div>
+        <select name="paises" id="paises">
+            <option value="0">Seleccione el país:</option>
+            <option value="1">Argentina</option>
+            <option value="2">Chile</option>
+            <option value="3">Colombia</option>
+            <option value="4">Brasil</option>
+            <option value="5">Uruguay</option>
+            <option value="6">Paraguay</option>
+        </select>
+        </div>
+        <select name="provincias" id="provincias">
+        <option value="0">Seleccione provincia:</option>
+        <option value="1">Buenos Aires</option>
+        <option value="2">Santa Fe</option>
+        <option value="3">Entre Rios</option>
+        <option value="4">Cordoba</option>
+        <option value="5">Mendoza</option>
+        <option value="6">Rio Negro</option>
+        </select>
+    <div>
+        <label for="multi">Comentario</label>
+        <textarea name="multi" id="multi" cols="40" rows="2"></textarea>
+    </div>
+    <div>
+        <input type="checkbox" name="Newsletter" id="Newsletter"> Deseo que me envíen las ultimas novedades
+        
+    </div>
+    <input type="submit" value="Enviar" class="button">
+    <input type="reset" value="Borrar todo" class="button">
+    </form>
+    </div>
+    <div class="form_info">
+        <h2 class="sub_tittle">Escribinos por acá</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, commodi!</p>
+        <p>loremlorem.com</p>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="pie-de-página">
+    <ul>
+        <li><a href="https://www.instagram.com/" target="_blank"><img  src="../assets/Img/instagram-brands.svg" alt="Instagram-Logo"></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><img  src="../assets/Img/facebook-brands.svg" alt="Facebook-Logo"></a></li>
+        <li><a href="" target="_blank"><img  src="../assets/Img/whatsapp-brands.svg"alt="Whatsapp-Logo"></a></li>
+        <li><a href="mailto:loremipsum@gmail.com"><img src="../assets/Img/envelope-solid.svg"alt="envelope-Logo"></a></li>
+    </ul>
+<h3>David Borghese- Todos los derechos reservados</h3>
+</footer>
+
+</body>
+</html>
