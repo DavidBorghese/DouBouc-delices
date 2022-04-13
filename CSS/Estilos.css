@@ -25,7 +25,8 @@ h1{
 }
 /*header*/
 header{
-    background: linear-gradient(45deg, rgb(255, 140, 0), rgb(238, 255, 0), rgb(255, 0, 0), rgb(48, 27, 1))  ;
+    /* background: linear-gradient(45deg, rgb(255, 140, 0), rgb(238, 255, 0), rgb(255, 0, 0), rgb(48, 27, 1))  ; */
+    background-color: black;
     color:black;
     display: flex;
     justify-content: space-between;
@@ -37,10 +38,13 @@ header{
     height: 6em;
     width: 6em;
 }
+
 .logo a img{
             height: 6em;
             display: flex;
             width: 6em;
+
+
 }
 nav{
     display:flex;
@@ -125,7 +129,8 @@ nav ul li a{
         
 /*footer*/
 #pie-de-página{
-    background: linear-gradient(45deg, rgb(255, 140, 0), rgb(238, 255, 0), rgb(255, 0, 0), rgb(48, 27, 1))  ;
+    /* background: linear-gradient(45deg, rgb(255, 140, 0), rgb(238, 255, 0), rgb(255, 0, 0), rgb(48, 27, 1))  ; */
+    background-color: black;
     padding: 5px;
     position: static;
     bottom:0px;
@@ -136,28 +141,42 @@ nav ul li a{
         list-style-type: none;
         justify-content: space-around;
 }
-
+#pie-de-página h3{
+    font-family: 'roboto';
+    font-size: 1.5rem;
+}
 
 .insta a i:hover{
     color: #750D37;
     transform: scale(1.65);
 }
-
+.insta i{
+    color: orange;
+}
 
 .face a i:hover{
     transform: scale(1.65);
     color: #0E34A0;
-
 }
+.face i{
+    color: orange;
+}
+
 .whatsapp a i:hover{
     color: #04F06A;
     transform: scale(1.65);
 }
-.envelope a i:hover{
-    color: #9AC4F8;
-    transform: scale(1.65);
-
+.whatsapp i{
+    color: orange;
 }
+.envelope a i:hover{
+    color: #eb3232;
+    transform: scale(1.65);
+}
+.envelope i{
+    color: orange;
+}
+
 /*pagina principal*/
 .grid_index{
     display: grid;
