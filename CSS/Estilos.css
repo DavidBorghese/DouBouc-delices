@@ -10,7 +10,7 @@
 }
 body{
     overflow-x: hidden;
-    background-image: url("../assets/Img/backImg.jpg");
+    background-image: url("../assets/img/backImg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
