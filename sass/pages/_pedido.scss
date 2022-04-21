@@ -1,0 +1,46 @@
+
+.precio_pedido {
+	font-size: .9rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.card {
+	padding: 0;
+	border: 1px solid $maincolor;
+	border-radius: 6px;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.788);
+	transition: 0.5s;
+	&:hover {
+		box-shadow: 5px 5px 20px white;
+		cursor: pointer;
+		transform: scale(1.1);
+		.pedido_img {
+			transform: scale(1.1) rotate(3deg);
+		}
+	}
+	p {
+		font-size: .8rem;
+	}
+}
+.pedido_img {
+	width: 100%;
+	transition: 0.5s;
+}
+.titulo_pedido {
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 19ch;
+	animation: typing 2s steps(19), blink .5s infinite step-end alternate;
+	overflow: hidden;
+}
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}

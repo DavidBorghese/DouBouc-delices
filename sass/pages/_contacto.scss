@@ -1,0 +1,48 @@
+
+.form_container {
+    padding: 20px;
+    font-weight: bold;
+    background-color: $bg-boxcolor;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.sub_tittle{
+    color: $maincolor;
+
+}
+.form_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    background-color: rgba(255, 235, 205, 0.959);
+    color: black;
+    line-height: 1.5em;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 20px;
+    transition: 0.7s ease-in-out;
+}
+.form_info:hover{
+    background:  rgba(255,255,255,0.3);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 8px 32px black;
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 20px;
+}
+
+.titulo_contacto{
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 11ch;
+    animation: typing 2s steps(11), blink .5s infinite step-end alternate; 
+    overflow: hidden;
+}
+@keyframes typing {
+    from {width: 0}
+}
+@keyframes blink {
+    50% {border-color: transparent}
+} 

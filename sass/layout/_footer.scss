@@ -1,0 +1,70 @@
+
+#pie-de-página {
+	background-color: $bg-color;
+	padding: 5px;
+	position: static;
+	bottom: 0px;
+	padding-top: 10px;
+	grid-area: footer;
+	ul {
+		display: flex;
+		list-style-type: none;
+		justify-content: space-around;
+	}
+	h3 {
+		font-family: 'roboto';
+		font-size: 1.1rem;
+	}
+}
+.insta {
+	a {
+		i {
+			&:hover {
+				color: #750D37;
+				transform: scale(1.65);
+			}
+		}
+	}
+	i {
+		color: $maincolor;
+	}
+}
+.face {
+	a {
+		i {
+			&:hover {
+				transform: scale(1.65);
+				color: #0E34A0;
+			}
+		}
+	}
+	i {
+		color: $maincolor;
+	}
+}
+.whatsapp {
+	a {
+		i {
+			&:hover {
+				color: #04F06A;
+				transform: scale(1.65);
+			}
+		}
+	}
+	i {
+		color: $maincolor;
+	}
+}
+.envelope {
+	a {
+		i {
+			&:hover {
+				color: #eb3232;
+				transform: scale(1.65);
+			}
+		}
+	}
+	i {
+		color: $maincolor;
+	}
+}

@@ -16,13 +16,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'roboto';
+}
 
-}
-h1{
-    text-align: center;
-    color:rgb(255, 38, 0);
-    margin-bottom: 20px;
-}
 /*header*/
 .navbar > .container-fluid {
     align-items: flex-end;
@@ -144,7 +139,7 @@ nav ul li a:hover:after{
 .column_txt--33 {
     position: absolute;
     bottom: 0;
-    color: rgb(255, 17, 0);
+    color: rgb(255, 38, 0);
     background-color: rgba(245, 245, 220, 0.5);
     text-align: center;
 }
@@ -193,6 +188,9 @@ nav ul li a:hover:after{
 .titulos{
     display: flex;
     justify-content: center;
+    text-align: center;
+    color:rgb(255, 38, 0);
+    margin-bottom: 20px;
     grid-area: titulo;
 }
 
@@ -218,7 +216,6 @@ nav ul li a:hover:after{
 /*Sobre Nosotros*/
 
 .nosotros_grid{
-
     margin: 0%;
     display:grid;
     gap: 0.93em;
@@ -231,7 +228,6 @@ nav ul li a:hover:after{
 }
 
 .titulo_nosotros{
-
     white-space: nowrap;
     border-right: 4px solid;
     width: 19ch;
@@ -249,8 +245,8 @@ nav ul li a:hover:after{
 
 .nosotros_text{
     padding: 15px;
-    background-color: rgba(245, 245, 220, 0.5);
-    border: 3px solid white;
+    background-color: rgba(255, 235, 205, 0.72);
+    border: 3px solid orange;
     border-radius: 20px;
     grid-area: nosotros_texto;
     transition: 0.7s ease-in-out;
@@ -317,13 +313,13 @@ nav ul li a:hover:after{
 .form_container {
     padding: 20px;
     font-weight: bold;
-    background-color: rgba(255, 235, 205, 0.863);
+    background-color: rgba(255, 235, 205, 0.72);
     font-size: 1.3rem;
     border-radius: 5px;
 }
 
 .sub_tittle{
-    color: rgb(255, 140, 0) ;
+    color: orange ;
 
 }
 .form_info{
@@ -336,7 +332,7 @@ nav ul li a:hover:after{
     color: black;
     line-height: 1.5em;
     padding: 15px;
-    border: 3px solid white;
+    border: 3px solid orange;
     border-radius: 20px;
     transition: 0.7s ease-in-out;
 }
@@ -440,7 +436,7 @@ iframe{
 
 .card {
     padding: 0;
-    border: 1px solid rgb(255, 140, 0);
+    border: 1px solid orange;
     border-radius: 6px;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.788);

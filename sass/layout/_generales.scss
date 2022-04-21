@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../assets/font/RobotoMono-Regular.ttf);
+}
+
+body{
+    overflow-x: hidden;
+    background-image: url("../assets/img/backImg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'roboto';
+}

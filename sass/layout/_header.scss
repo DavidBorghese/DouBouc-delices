@@ -1,0 +1,60 @@
+
+
+.navbar {
+	>.container-fluid {
+		align-items: flex-end;
+	}
+}
+.navbar-collapse {
+	flex-grow: initial;
+}
+header {
+	background-color: $bg-color;
+	padding: 10px;
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+	grid-area: header;
+}
+.header__logo {
+	height: 7rem;
+	width: 7rem;
+	animation: ease-in animat 1s;
+}
+@keyframes animat {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+nav {
+	ul {
+		li {
+			a {
+				text-decoration: none;
+				color: rgba(85, 83, 83, 0.986);
+				font-weight: bolder;
+				font-size: 1.56em;
+				position: relative;
+				&:after {
+					content: "";
+					position: absolute;
+					background-color: $maincolor;
+					height: 3px;
+					left: 0;
+					width: 0;
+					bottom: 5px;
+					transition: 0.3s;
+				}
+				&:hover {
+					color: white;
+					&:after {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
