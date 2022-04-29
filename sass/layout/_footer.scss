@@ -20,7 +20,7 @@
 	a {
 		i {
 			&:hover {
-				color: #750D37;
+				color: map-get($redescolor, insta);
 				transform: scale(1.65);
 			}
 		}
@@ -34,7 +34,7 @@
 		i {
 			&:hover {
 				transform: scale(1.65);
-				color: #0E34A0;
+				color: map-get($redescolor, face);
 			}
 		}
 	}
@@ -46,7 +46,7 @@
 	a {
 		i {
 			&:hover {
-				color: #04F06A;
+				color: map-get($redescolor, whatsapp);
 				transform: scale(1.65);
 			}
 		}
@@ -59,7 +59,7 @@
 	a {
 		i {
 			&:hover {
-				color: #eb3232;
+				color: map-get($redescolor, envelope);
 				transform: scale(1.65);
 			}
 		}

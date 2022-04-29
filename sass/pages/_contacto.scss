@@ -13,9 +13,7 @@
 }
 .form_info{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+	@include flexcomun;
     margin: 0 0 1rem 0;
     background-color: rgba(255, 235, 205, 0.959);
     color: black;
@@ -34,11 +32,10 @@
 }
 
 .titulo_contacto{
-    white-space: nowrap;
-    border-right: 4px solid;
+	@include typetitulo;
     width: 11ch;
     animation: typing 2s steps(11), blink .5s infinite step-end alternate; 
-    overflow: hidden;
+
 }
 @keyframes typing {
     from {width: 0}

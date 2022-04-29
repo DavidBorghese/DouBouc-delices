@@ -200,8 +200,7 @@ nav ul li a:hover:after {
   overflow: hidden;
 }
 
-.column_txt--destacados {
-  font-weight: bolder;
+.column_txt--33, .column_txt--destacados {
   position: absolute;
   bottom: 0;
   color: #ff1100;
@@ -209,12 +208,8 @@ nav ul li a:hover:after {
   text-align: center;
 }
 
-.column_txt--33 {
-  position: absolute;
-  bottom: 0;
-  color: #ff1100;
-  background-color: rgba(245, 245, 220, 0.5);
-  text-align: center;
+.column_txt--destacados {
+  font-weight: bolder;
 }
 
 .column_33 {
@@ -222,14 +217,14 @@ nav ul li a:hover:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
   position: relative;
 }
 
-.column_33 .column_txt--33 {
+.column_33 .column_txt--33, .column_33 .column_txt--destacados {
   bottom: 10px;
   font-size: 1.2rem;
 }
@@ -276,10 +271,10 @@ nav ul li a:hover:after {
 .titulo_index {
   white-space: nowrap;
   border-right: 4px solid;
-  width: 34ch;
-  -webkit-animation: typing 2s steps(34), blink 0.5s infinite step-end alternate;
-          animation: typing 2s steps(34), blink 0.5s infinite step-end alternate;
   overflow: hidden;
+  width: 23ch;
+  -webkit-animation: typing 2s steps(23), blink 0.5s infinite step-end alternate;
+          animation: typing 2s steps(23), blink 0.5s infinite step-end alternate;
 }
 
 @media (max-width: 576px) {
@@ -290,7 +285,7 @@ nav ul li a:hover:after {
   .pagina_img {
     height: 150px;
   }
-  .column_txt--33 {
+  .column_txt--33, .column_txt--destacados {
     font-size: .8em;
     position: relative;
   }
@@ -316,10 +311,10 @@ nav ul li a:hover:after {
 .titulo_nosotros {
   white-space: nowrap;
   border-right: 4px solid;
+  overflow: hidden;
   width: 19ch;
   -webkit-animation: typing 2s steps(19), blink 0.5s infinite step-end alternate;
           animation: typing 2s steps(19), blink 0.5s infinite step-end alternate;
-  overflow: hidden;
 }
 
 @keyframes typing {
@@ -448,10 +443,10 @@ iframe {
 .titulo_productos {
   white-space: nowrap;
   border-right: 4px solid;
-  width: 22ch;
-  -webkit-animation: typing 2s steps(22), blink 0.5s infinite step-end alternate;
-          animation: typing 2s steps(22), blink 0.5s infinite step-end alternate;
   overflow: hidden;
+  width: 17ch;
+  -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+          animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
 }
 
 @keyframes typing {
@@ -548,10 +543,10 @@ iframe {
 .titulo_pedido {
   white-space: nowrap;
   border-right: 4px solid;
+  overflow: hidden;
   width: 19ch;
   -webkit-animation: typing 2s steps(19), blink 0.5s infinite step-end alternate;
           animation: typing 2s steps(19), blink 0.5s infinite step-end alternate;
-  overflow: hidden;
 }
 
 @keyframes typing {
@@ -582,10 +577,7 @@ iframe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -614,10 +606,10 @@ iframe {
 .titulo_contacto {
   white-space: nowrap;
   border-right: 4px solid;
+  overflow: hidden;
   width: 11ch;
   -webkit-animation: typing 2s steps(11), blink 0.5s infinite step-end alternate;
           animation: typing 2s steps(11), blink 0.5s infinite step-end alternate;
-  overflow: hidden;
 }
 
 @keyframes typing {

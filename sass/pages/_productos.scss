@@ -24,11 +24,10 @@ iframe {
 	height: 315px;
 }
 .titulo_productos {
-	white-space: nowrap;
-	border-right: 4px solid;
-	width: 22ch;
-	animation: typing 2s steps(22), blink .5s infinite step-end alternate;
-	overflow: hidden;
+	@include typetitulo;
+	width: 17ch;
+	animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+
 }
 @keyframes typing {
 	from {

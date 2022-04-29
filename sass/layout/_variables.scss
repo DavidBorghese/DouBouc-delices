@@ -4,3 +4,22 @@ $maincolor: orange;
 $bg-color: black;
 $tit_color:rgb(255, 38, 0);
 $bg-boxcolor: rgba(255, 235, 205, 0.72);
+$redescolor:(
+    insta: #750D37,
+    face:#0E34A0,
+    whatsapp: #04F06A,
+    envelope: #eb3232,
+);
+
+//mixin
+
+@mixin typetitulo {
+    white-space: nowrap;
+	border-right: 4px solid;
+	overflow: hidden;
+}
+@mixin flexcomun {
+    display: flex;
+	justify-content: center;
+	text-align: center;
+}
