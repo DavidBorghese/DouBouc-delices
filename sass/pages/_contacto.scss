@@ -1,4 +1,7 @@
 
+.cont__container{
+    margin-bottom: 2.5rem;
+}
 .form_container {
     padding: 20px;
     font-weight: bold;
@@ -12,7 +15,7 @@
 
 }
 .form_info{
-    display: flex;
+    flex-direction: column;
 	@include flexcomun;
     margin: 0 0 1rem 0;
     background-color: rgba(255, 235, 205, 0.959);

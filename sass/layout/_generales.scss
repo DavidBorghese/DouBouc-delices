@@ -14,6 +14,17 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 200%;
     font-family: 'roboto';
+    animation: fondomov 10s infinite linear alternate;
+}
+@keyframes fondomov {
+    from{background-position: bottom left;}
+    to{background-position: top right;}
+}
+
+@media (min-width:360px) and (max-width:768px){
+    body{
+        background-size: cover;
+    }
 }

@@ -18,6 +18,7 @@
 .video_container {
 	display: flex;
 	justify-content: space-evenly;
+	margin-bottom: 2.5rem;
 }
 iframe {
 	width: 560px;
@@ -25,8 +26,8 @@ iframe {
 }
 .titulo_productos {
 	@include typetitulo;
-	width: 17ch;
-	animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+	width: 18ch;
+	animation: typing 2s steps(18), blink .5s infinite step-end alternate;
 
 }
 @keyframes typing {

@@ -21,19 +21,21 @@
 .column_txt--33 {
 	position: absolute;
 	bottom: 0;
-	color: rgb(255, 17, 0);
-	background-color: rgba(245, 245, 220, 0.5);
+	color: $maincolor;
+	background-color: rgba(36, 21, 1, 0.5);
 	text-align: center;
+	font-weight: bolder;
+	border-radius: 20px;
 }
 .column_txt--destacados {
 	@extend .column_txt--33;
-	font-weight: bolder;
+
 }
 
 .column_33 {
 	.column_txt--33 {
 		bottom: 10px;
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 	width: 100%;
 	@include flexcomun;
@@ -55,9 +57,8 @@
 }
 .titulos {
 	@include flexcomun;
-    color:rgb(255, 38, 0);
+    color:rgb(228, 147, 7);
     margin-bottom: 20px;
-	grid-area: titulo;
 }
 .titulo_index {
 	@include typetitulo;
@@ -70,16 +71,19 @@
 		grid-template-columns: 1fr;
 	}
 	.pagina_img {
-		height: 150px;
+		height: 130px;
 	}
 	.column_txt--33 {
-		font-size: .8em;
+		font-size: 1em;
 		position: relative;
 	}
 	.column_33 {
 		flex-direction: column-reverse;
 	}
 	.titulo_index {
-		font-size: 1.4rem;
+		font-size: 1.5rem;
+	}
+	.carousel-inner{
+		height: 55vh;
 	}
 }
