@@ -30,6 +30,9 @@
 	width: 100%;
 	transition: 0.5s;
 }
+.row {
+	padding: 0 18px
+}
 .titulo_pedido {
 	@include typetitulo;
 	width: 19ch;

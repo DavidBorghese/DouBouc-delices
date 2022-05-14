@@ -27,15 +27,12 @@
 	font-weight: bolder;
 	border-radius: 20px;
 }
-.column_txt--destacados {
-	@extend .column_txt--33;
 
-}
 
 .column_33 {
 	.column_txt--33 {
 		bottom: 10px;
-		font-size: 1.3rem;
+	
 	}
 	width: 100%;
 	@include flexcomun;
@@ -66,6 +63,15 @@
 	animation: typing 2s steps(23), blink .5s infinite step-end alternate;
 
 }
+@media (min-width:577px) and (max-width:775px){
+	.carousel-inner{
+		height: 70vh;
+	}
+	.column_txt--33{
+		font-size: 1.3em;
+	}
+}
+
 @media (max-width: 576px) {
 	.grid_index {
 		grid-template-columns: 1fr;
@@ -74,7 +80,7 @@
 		height: 130px;
 	}
 	.column_txt--33 {
-		font-size: 1em;
+		font-size: 1.1em;
 		position: relative;
 	}
 	.column_33 {
@@ -85,5 +91,12 @@
 	}
 	.carousel-inner{
 		height: 55vh;
+	}
+}
+
+@media (min-width:360px) and (max-width:575px) {
+	.column_txt--33{
+		font-size: 1rem;
+		margin: 10px;
 	}
 }

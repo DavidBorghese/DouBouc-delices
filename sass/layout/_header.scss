@@ -57,3 +57,13 @@ nav {
 		}
 	}
 }
+
+@media screen and (max-width:360px){
+	.header__logo{
+		height: 5.5rem;
+		width: 5.5rem;
+	}
+	header{
+		padding: 5px;
+	}
+}
