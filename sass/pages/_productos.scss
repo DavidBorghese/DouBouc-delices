@@ -4,6 +4,7 @@
 	display: grid;
 	gap: 0.8em;
 	grid-template-columns: repeat(3,1fr);
+	margin: 15px;
 }
 .galeria_container--img {
 	width: 100%;
@@ -24,6 +25,11 @@
 iframe {
 	width: 560px;
 	height: 315px;
+}
+.modal-content{
+	background-color: $bg-color;
+	color: $maincolor;
+	list-style: none;
 }
 .titulo_productos {
 	@include typetitulo;

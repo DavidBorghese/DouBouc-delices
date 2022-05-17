@@ -392,6 +392,14 @@ nav ul li a:hover:after {
      object-fit: cover;
   -webkit-transition: 2s ease-in-out;
   transition: 2s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .nosotros_img img {
@@ -434,6 +442,7 @@ nav ul li a:hover:after {
 @media (max-width: 570px) {
   .nosotros_img {
     height: 25rem;
+    margin-bottom: 15px;
   }
 }
 
@@ -443,6 +452,7 @@ nav ul li a:hover:after {
   gap: 0.8em;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  margin: 15px;
 }
 
 .galeria_container--img {
@@ -475,6 +485,12 @@ nav ul li a:hover:after {
 iframe {
   width: 560px;
   height: 315px;
+}
+
+.modal-content {
+  background-color: black;
+  color: orange;
+  list-style: none;
 }
 
 .titulo_productos {
